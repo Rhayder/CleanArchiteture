@@ -43,6 +43,5 @@ namespace CleanArchitecture.Persistence.Repositories
             entity.DateUpdated = DateTimeOffset.UtcNow;
             Context.Update(entity);
         }
-    }
-    }
+    }    
 }
